@@ -9,11 +9,11 @@
 
 #import "GameScene.h"
 #import "SoundManagerAdapter.h"
-#import <AVFoundation/AVFoundation.h>
+#import "SoundManager.h"
 
 @interface GameScene()
 
-@property(nonatomic, assign) SoundManagerAdapter *adapter;
+@property(nonatomic, strong) SoundManagerAdapter *adapter;
 
 @end
 
@@ -29,27 +29,35 @@
                                    CGRectGetMidY(self.frame));
     
     [self addChild:myLabel];
+
+    NSLog(@"SoundManager Preload");
+//    [SoundManager sharedManager].allowsBackgroundMusic = YES;
+//    [[SoundManager sharedManager] prepareToPlayWithSound:@"BD0000.mp3"];
+    self.adapter = [[SoundManagerAdapter alloc] init];
     [self.adapter preload:@""];
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     /* Called when a touch begins */
-    
+
     for (UITouch *touch in touches) {
-        [self.adapter play:@"%@Sounds/BD0000.mp3"];
-        CGPoint location = [touch locationInNode:self];
-        
-        SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship"];
-        
-        sprite.xScale = 0.5;
-        sprite.yScale = 0.5;
-        sprite.position = location;
-        
-        SKAction *action = [SKAction rotateByAngle:M_PI duration:1];
-        
-        [sprite runAction:[SKAction repeatActionForever:action]];
-        
-        [self addChild:sprite];
+        NSLog(@"SoundManager Play BD0000.mp3");
+//        [[SoundManager sharedManager] playSound:@"BD0000.mp3"];
+//        [[SoundManager sharedManager] playSound:@"wood-logs-2.mp3"];
+        [self.adapter play:@"wood-logs-2.mp3"];
+//        CGPoint location = [touch locationInNode:self];
+//
+//        SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship"];
+//
+//        sprite.xScale = 0.5;
+//        sprite.yScale = 0.5;
+//        sprite.position = location;
+//
+//        SKAction *action = [SKAction rotateByAngle:M_PI duration:1];
+//
+//        [sprite runAction:[SKAction repeatActionForever:action]];
+//
+//        [self addChild:sprite];
     }
 }
 

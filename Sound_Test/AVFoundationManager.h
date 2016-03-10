@@ -7,7 +7,7 @@
 #import "MySoundManager.h"
 #import <AVFoundation/AVFoundation.h>
 
-@interface AVFoundationManager : MySoundManager
+@interface AVFoundationManager : NSObject <MySoundManager>
 
 
 
