@@ -14,6 +14,7 @@
 		B2EAF1F3F054EF94E778E303 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EAFDD7E97E3548E0B24017 /* AppDelegate.m */; };
 		B2EAF3190F63561658909898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2EAF4ACB0277E4F9EF3AE89 /* LaunchScreen.storyboard */; };
 		B2EAF4A0C0FC46C0E7548F29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2EAFC05E84E66CFB42FB154 /* Assets.xcassets */; };
+		B2EAF542FBC77912FB4AFD6F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B2EAF36CD2B41733F5D4F339 /* .gitignore */; };
 		B2EAF5DCE819121052FA09B2 /* BD0000.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2EAF9EDDE1BF2C8E09B4A8D /* BD0000.mp3 */; };
 		B2EAF7EDE4BD79B1A1AEF740 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EAF9BE3AFCE888EA3026F3 /* GameScene.m */; };
 		B2EAF7FBC61FD74753ECCBED /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B2EAF3B0C510FA888B583C71 /* GameScene.sks */; };
@@ -44,6 +45,7 @@
 		B2EAF1CF7F368A0AF25DE892 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		B2EAF22BF36173291708F0EE /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		B2EAF2A39E011DED7D5AFFF0 /* Sound TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sound TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EAF36CD2B41733F5D4F339 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		B2EAF3B0C510FA888B583C71 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		B2EAF49D481861A0802F9666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		B2EAF601A2348593BC1E7CA9 /* Sound_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sound_TestTests.m; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				B2EAF7CF4FF090C7BCFE0660 /* Sound TestTests */,
 				B2EAF0ADEB357CCCA1551B82 /* Sound TestUITests */,
 				B2EAFB8326F58E51C08D24B5 /* Sounds */,
+				B2EAF36CD2B41733F5D4F339 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -278,6 +281,7 @@
 				B2EAF019AB7E07DCF7CDF929 /* Main.storyboard in Resources */,
 				B2EAF7FBC61FD74753ECCBED /* GameScene.sks in Resources */,
 				B2EAF5DCE819121052FA09B2 /* BD0000.mp3 in Resources */,
+				B2EAF542FBC77912FB4AFD6F /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
