@@ -2,7 +2,7 @@
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/AVFoundationManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mySoundManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sound TestUITests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sound TestUITests/Sound_TestUITests.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/AVFoundationManager.h" isTestSource="false" />
