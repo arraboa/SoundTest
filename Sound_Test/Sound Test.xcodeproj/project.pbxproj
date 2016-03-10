@@ -63,7 +63,7 @@
 		C51E9DFEFEB3FB06B7FB0C37 /* AVFoundationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVFoundationManager.m; sourceTree = SOURCE_ROOT; };
 		FA48CE4F1C91643C00E9C8AE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		FA48CE511C916E3E00E9C8AE /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = ../../Downloads/Sounds; sourceTree = "<group>"; };
-		FA48CE531C916E7B00E9C8AE /* SoundManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SoundManager.h; path = ../SoundManager.h; sourceTree = "<group>"; };
+		FA48CE531C916E7B00E9C8AE /* mySoundManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mySoundManager.h; path = ../mySoundManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +143,7 @@
 		B2EAFD22E0C45C2A53A0C27B /* Sound Test */ = {
 			isa = PBXGroup;
 			children = (
-				FA48CE531C916E7B00E9C8AE /* SoundManager.h */,
+				FA48CE531C916E7B00E9C8AE /* mySoundManager.h */,
 				B2EAF8BFD480736A24041212 /* Info.plist */,
 				B2EAFC05E84E66CFB42FB154 /* Assets.xcassets */,
 				B2EAF4ACB0277E4F9EF3AE89 /* LaunchScreen.storyboard */,

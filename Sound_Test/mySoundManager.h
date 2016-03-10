@@ -1,17 +1,17 @@
 //
-//  SoundManager.h
+//  mySoundManager.h
 //  Sound Test
 //
 //  Created by PixMix on 10/03/2016.
 //  Copyright © 2016 Voodoo. All rights reserved.
 //
 
-#ifndef SoundManager_h
-#define SoundManager_h
+#ifndef MYSOUNDMANAGER_H_
+#define MYSOUNDMANAGER_H_
 
 #include <Foundation/NSString.h>
 
-@interface SoundManager : NSObject
+@interface mySoundManager : NSObject
 
 -(void)preload:(NSString *)path;
 -(void)play:(NSString *)name;
@@ -22,4 +22,4 @@
 
 @end
 
-#endif /* SoundManager_h */
+#endif /* !MYSOUNDMANAGER_H_ */
