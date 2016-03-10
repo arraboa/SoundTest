@@ -19,7 +19,6 @@
 		B2EAFD7124B01586027E234F /* Sound_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EAF7DE09D836D29F428D8A /* Sound_TestUITests.m */; };
 		C51E9B5B2ED7E867610D16B3 /* AVFoundationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C51E9DFEFEB3FB06B7FB0C37 /* AVFoundationManager.m */; };
 		FA48CE501C91643C00E9C8AE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA48CE4F1C91643C00E9C8AE /* AVFoundation.framework */; };
-		FA48CE521C916E3E00E9C8AE /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = FA48CE511C916E3E00E9C8AE /* Sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +61,6 @@
 		C51E9377F8700D8DA639CE9F /* AVFoundationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVFoundationManager.h; sourceTree = SOURCE_ROOT; };
 		C51E9DFEFEB3FB06B7FB0C37 /* AVFoundationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVFoundationManager.m; sourceTree = SOURCE_ROOT; };
 		FA48CE4F1C91643C00E9C8AE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		FA48CE511C916E3E00E9C8AE /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = ../../Downloads/Sounds; sourceTree = "<group>"; };
 		FA48CE531C916E7B00E9C8AE /* mySoundManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mySoundManager.h; path = ../mySoundManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,7 +119,6 @@
 		B2EAFAA5E7F4E2CFDAB30ADB = {
 			isa = PBXGroup;
 			children = (
-				FA48CE511C916E3E00E9C8AE /* Sounds */,
 				FA48CE4F1C91643C00E9C8AE /* AVFoundation.framework */,
 				B2EAFB9BEE056C3324ED5F6E /* Products */,
 				B2EAFD22E0C45C2A53A0C27B /* Sound Test */,
@@ -265,7 +262,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA48CE521C916E3E00E9C8AE /* Sounds in Resources */,
 				B2EAF4A0C0FC46C0E7548F29 /* Assets.xcassets in Resources */,
 				B2EAF3190F63561658909898 /* LaunchScreen.storyboard in Resources */,
 				B2EAF019AB7E07DCF7CDF929 /* Main.storyboard in Resources */,
