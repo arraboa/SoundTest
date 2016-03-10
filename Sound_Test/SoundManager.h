@@ -11,7 +11,7 @@
 
 #include <Foundation/NSString.h>
 
-@interface SoundManager
+@interface SoundManager : NSObject
 
 -(void)preload:(NSString *)path;
 -(void)play:(NSString *)name;
