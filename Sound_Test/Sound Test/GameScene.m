@@ -6,7 +6,9 @@
 //  Copyright (c) 2016 Voodoo. All rights reserved.
 //
 
+
 #import "GameScene.h"
+#import <AVFoundation/AVFoundation.h>
 
 @implementation GameScene
 
@@ -20,6 +22,10 @@
                                    CGRectGetMidY(self.frame));
     
     [self addChild:myLabel];
+    
+    /* Seup sounds here */
+    
+
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
