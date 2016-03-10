@@ -9,7 +9,7 @@
 #ifndef SOUNDMANAGER_H_
 #define SOUNDMANAGER_H_
 
-@interface SoundManager : MySoundManager
+@interface SoundManagerAdapter : MySoundManager
 @end
 
 #endif /* !MYSOUNDMANAGER_H_ */

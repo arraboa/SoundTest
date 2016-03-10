@@ -8,7 +8,14 @@
 
 
 #import "GameScene.h"
+#import "SoundManagerAdapter.h"
 #import <AVFoundation/AVFoundation.h>
+
+@interface GameScene()
+
+@property(nonatomic, assign) SoundManagerAdapter *adapter;
+
+@end
 
 @implementation GameScene
 
@@ -22,13 +29,14 @@
                                    CGRectGetMidY(self.frame));
     
     [self addChild:myLabel];
-
+    [self.adapter preload:@""];
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     /* Called when a touch begins */
     
     for (UITouch *touch in touches) {
+        [self.adapter play:@"%@Sounds/BD0000.mp3"];
         CGPoint location = [touch locationInNode:self];
         
         SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship"];
