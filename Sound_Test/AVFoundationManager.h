@@ -4,10 +4,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "mySoundManager.h"
+#import "MySoundManager.h"
 #import <AVFoundation/AVFoundation.h>
 
-@interface AVFoundationManager : mySoundManager
+@interface AVFoundationManager : MySoundManager
 
 
 

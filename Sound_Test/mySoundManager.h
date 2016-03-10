@@ -1,5 +1,5 @@
 //
-//  mySoundManager.h
+//  MySoundManager.h
 //  Sound Test
 //
 //  Created by PixMix on 10/03/2016.
@@ -11,7 +11,7 @@
 
 #include <Foundation/NSString.h>
 
-@interface mySoundManager : NSObject
+@interface MySoundManager : NSObject
 
 -(void)preload:(NSString *)path;
 -(void)play:(NSString *)name;

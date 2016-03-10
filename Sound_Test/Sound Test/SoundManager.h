@@ -4,7 +4,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MySoundManager.h"
 
+#ifndef SOUNDMANAGER_H_
+#define SOUNDMANAGER_H_
 
-@interface SoundManager : NSObject
+@interface SoundManager : MySoundManager
 @end
+
+#endif /* !MYSOUNDMANAGER_H_ */

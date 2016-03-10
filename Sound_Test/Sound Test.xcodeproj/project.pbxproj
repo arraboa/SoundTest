@@ -13,6 +13,7 @@
 		B2EAF11CDFE7F387948AB0D7 /* Sound_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EAF601A2348593BC1E7CA9 /* Sound_TestTests.m */; };
 		B2EAF1F3F054EF94E778E303 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EAFDD7E97E3548E0B24017 /* AppDelegate.m */; };
 		B2EAF3190F63561658909898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2EAF4ACB0277E4F9EF3AE89 /* LaunchScreen.storyboard */; };
+		B2EAF391D934A21F7DA508A3 /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EAF267A459486B7AED6D61 /* SoundManager.m */; };
 		B2EAF4A0C0FC46C0E7548F29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2EAFC05E84E66CFB42FB154 /* Assets.xcassets */; };
 		B2EAF542FBC77912FB4AFD6F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B2EAF36CD2B41733F5D4F339 /* .gitignore */; };
 		B2EAF5DCE819121052FA09B2 /* BD0000.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2EAF9EDDE1BF2C8E09B4A8D /* BD0000.mp3 */; };
@@ -44,6 +45,7 @@
 		B2EAF0C1E3B67DA88AF7E78E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2EAF1CF7F368A0AF25DE892 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		B2EAF22BF36173291708F0EE /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		B2EAF267A459486B7AED6D61 /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
 		B2EAF2A39E011DED7D5AFFF0 /* Sound TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sound TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2EAF36CD2B41733F5D4F339 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		B2EAF3B0C510FA888B583C71 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -62,10 +64,11 @@
 		B2EAFC05E84E66CFB42FB154 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2EAFDD7E97E3548E0B24017 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B2EAFFDD4A5F72BF39E94F87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2EAFFE244BAFE0FEC8B7061 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
 		C51E9377F8700D8DA639CE9F /* AVFoundationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVFoundationManager.h; sourceTree = SOURCE_ROOT; };
 		C51E9DFEFEB3FB06B7FB0C37 /* AVFoundationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVFoundationManager.m; sourceTree = SOURCE_ROOT; };
 		FA48CE4F1C91643C00E9C8AE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		FA48CE531C916E7B00E9C8AE /* mySoundManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mySoundManager.h; path = ../mySoundManager.h; sourceTree = "<group>"; };
+		FA48CE531C916E7B00E9C8AE /* MySoundManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MySoundManager.h; path = ../MySoundManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,7 +157,7 @@
 		B2EAFD22E0C45C2A53A0C27B /* Sound Test */ = {
 			isa = PBXGroup;
 			children = (
-				FA48CE531C916E7B00E9C8AE /* mySoundManager.h */,
+				FA48CE531C916E7B00E9C8AE /* MySoundManager.h */,
 				B2EAF8BFD480736A24041212 /* Info.plist */,
 				B2EAFC05E84E66CFB42FB154 /* Assets.xcassets */,
 				B2EAF4ACB0277E4F9EF3AE89 /* LaunchScreen.storyboard */,
@@ -169,6 +172,8 @@
 				B2EAF22BF36173291708F0EE /* GameViewController.m */,
 				C51E9DFEFEB3FB06B7FB0C37 /* AVFoundationManager.m */,
 				C51E9377F8700D8DA639CE9F /* AVFoundationManager.h */,
+				B2EAF267A459486B7AED6D61 /* SoundManager.m */,
+				B2EAFFE244BAFE0FEC8B7061 /* SoundManager.h */,
 			);
 			path = "Sound Test";
 			sourceTree = "<group>";
@@ -313,6 +318,7 @@
 				B2EAF7EDE4BD79B1A1AEF740 /* GameScene.m in Sources */,
 				B2EAF0F29CF42D8F1240A493 /* GameViewController.m in Sources */,
 				C51E9B5B2ED7E867610D16B3 /* AVFoundationManager.m in Sources */,
+				B2EAF391D934A21F7DA508A3 /* SoundManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
