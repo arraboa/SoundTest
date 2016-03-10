@@ -5,10 +5,31 @@
 
 #import "AVFoundationManager.h"
 
+@implementation AVFoundationManager
 
-@implementation AVFoundationManager {
-
-    -void()
+-(void)preload:(NSString *)path {
 
 }
+
+-(void)play:(NSString *)name {
+
+}
+
+-(void)stop:(NSString *)name {
+
+}
+
+-(void)stopAll {
+
+}
+
+-(void)setLoop:(bool)loop {
+
+}
+
+-(void)setVolume:(double)volume {
+
+}
+
 @end
+
