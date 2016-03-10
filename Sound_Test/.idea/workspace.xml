@@ -2,45 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c81fec63-2993-40dd-a4e9-1000d60f8a8b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/.idea/SoundTest.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/.idea/xcode.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest.xcodeproj/project.pbxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest.xcodeproj/xcuserdata/arramo_a.xcuserdatad/xcschemes/SoundTest.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest/AppDelegate.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest/AppDelegate.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Large.imagestack/Back.imagestacklayer/Content.imageset/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Large.imagestack/Back.imagestacklayer/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Large.imagestack/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Large.imagestack/Front.imagestacklayer/Content.imageset/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Large.imagestack/Front.imagestacklayer/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Large.imagestack/Middle.imagestacklayer/Content.imageset/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Large.imagestack/Middle.imagestacklayer/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Small.imagestack/Back.imagestacklayer/Content.imageset/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Small.imagestack/Back.imagestacklayer/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Small.imagestack/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Small.imagestack/Front.imagestacklayer/Content.imageset/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Small.imagestack/Front.imagestacklayer/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Small.imagestack/Middle.imagestacklayer/Content.imageset/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Small.imagestack/Middle.imagestacklayer/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/Top Shelf Image.imageset/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest/Assets.xcassets/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest/Assets.xcassets/LaunchImage.launchimage/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest/Base.lproj/Main.storyboard" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest/ViewController.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest/ViewController.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTest/main.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTestTests/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTestTests/SoundTestTests.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTestUITests/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SoundTest/SoundTestUITests/SoundTestUITests.m" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sound Test.xcodeproj/xcuserdata/arramo_a.xcuserdatad/xcschemes/Sound Test.xcscheme" afterPath="$PROJECT_DIR$/Sound Test.xcodeproj/xcuserdata/arramo_a.xcuserdatad/xcschemes/Sound Test.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sound Test/Base.lproj/LaunchScreen.storyboard" afterPath="$PROJECT_DIR$/Sound Test/Base.lproj/LaunchScreen.storyboard" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sound Test/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/Sound Test/Base.lproj/Main.storyboard" />
     </list>
     <ignored path="Sound_Test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,9 +19,43 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulatoriPhone_5s_9.2_x86_64_1" />
   <component name="FavoritesManager">
     <favorites_list name="Sound Test" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Sound_TestTests.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sound TestTests/Sound_TestTests.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameScene.m" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Sound Test/GameScene.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.24496645">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppDelegate.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sound Test/AppDelegate.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -109,6 +107,48 @@
               <option name="myItemId" value="Sound Test" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sound TestUITests" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sound Test" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sound TestTests" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sound Test" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sound Test" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sound Test" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -116,7 +156,7 @@
     </panes>
   </component>
   <component name="RunManager" selected="Application.Sound Test">
-    <configuration default="false" name="Sound Test" type="AppleRunConfiguration" factoryName="Application" temporary="true" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Sound Test" TARGET_NAME="Sound Test" CONFIG_NAME="Debug" SCHEME_NAME="Sound Test" RUN_TARGET_PROJECT_NAME="Sound Test" RUN_TARGET_NAME="Sound Test" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+    <configuration default="false" name="Sound Test" type="AppleRunConfiguration" factoryName="Application" temporary="true" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Sound Test" TARGET_NAME="Sound Test" CONFIG_NAME="Debug" SCHEME_NAME="Sound Test" RUN_TARGET_PROJECT_NAME="Sound Test" RUN_TARGET_NAME="Sound Test" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
         <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
@@ -156,21 +196,22 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -179,5 +220,31 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Sound TestTests/Sound_TestTests.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sound Test/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sound Test/GameScene.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24496645">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
