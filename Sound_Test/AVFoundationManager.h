@@ -5,7 +5,7 @@
 
 #import <Foundation/Foundation.h>
 #import "mySoundManager.h"
-
+#import <AVFoundation/AVFoundation.h>
 
 @interface AVFoundationManager : mySoundManager
 
