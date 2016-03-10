@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import <SpriteKit/SpriteKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface GameViewController : UIViewController <AVAudio
+@interface GameViewController : UIViewController <AVAudioPlayerDelegate>
+
+@property (nonatomic, retain) AVAudioPlayer *AVFplayer;
 
 @end

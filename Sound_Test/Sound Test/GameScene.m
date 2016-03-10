@@ -22,9 +22,6 @@
                                    CGRectGetMidY(self.frame));
     
     [self addChild:myLabel];
-    
-    /* Seup sounds here */
-    
 
 }
 

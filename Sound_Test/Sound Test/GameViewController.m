@@ -11,6 +11,8 @@
 
 @implementation GameViewController
 
+@synthesize AVFplayer;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
