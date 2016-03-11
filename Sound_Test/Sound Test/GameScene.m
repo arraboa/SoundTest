@@ -32,8 +32,6 @@
     [self addChild:myLabel];
 
     NSLog(@"SoundManager Preload");
-//    [SoundManager sharedManager].allowsBackgroundMusic = YES;
-//    [[SoundManager sharedManager] prepareToPlayWithSound:@"BD0000.mp3"];
     self.adapter = [[SoundManagerAdapter alloc] init];
     [self.adapter preload:@""];
 }
@@ -47,27 +45,10 @@
     /* Called when a touch begins */
 
     for (UITouch *touch in touches) {
-        NSLog(@"SoundManager Play BD0000.mp3");
-//        [[SoundManager sharedManager] playSound:@"BD0000.mp3"];
-//        [[SoundManager sharedManager] playSound:@"wood-logs-2.mp3"];
-
+        NSLog(@"SoundManager Play sound.mp3");
         _idMusic ? [self.adapter play:@"wood-logs-2.mp3"] :
                 [self.adapter play:@"whale.mp3"];
-
         _idMusic = !_idMusic;
-        CGPoint location = [touch locationInNode:self];
-//
-//        SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship"];
-//
-//        sprite.xScale = 0.5;
-//        sprite.yScale = 0.5;
-//        sprite.position = location;
-//
-//        SKAction *action = [SKAction rotateByAngle:M_PI duration:1];
-//
-//        [sprite runAction:[SKAction repeatActionForever:action]];
-//
-//        [self addChild:sprite];
     }
 }
 
