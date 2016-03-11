@@ -9,11 +9,12 @@
 
 #import "GameScene.h"
 #import "SoundManagerAdapter.h"
-#import <AVFoundation/AVFoundation.h>
+#import "AVFoundationManager.h"
 
 @interface GameScene()
 
 @property(nonatomic, assign) SoundManagerAdapter *adapter;
+@property(nonatomic, assign) AVFoundationManager *AVFManager;
 
 @end
 
@@ -29,14 +30,31 @@
                                    CGRectGetMidY(self.frame));
     
     [self addChild:myLabel];
-    [self.adapter preload:@""];
+
+    NSLog(@"Moved to view : OK");
+
+    /* SoundManagerAdater */
+    //[self.adapter preload:@""];
+
+    /* AVFManager */
+    self.AVFManager = [[AVFoundationManager alloc] init];
+    [self.AVFManager preload:@"BD0000"];
+
+    NSLog(@"AVFManager preload achieved");
+
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     /* Called when a touch begins */
     
     for (UITouch *touch in touches) {
-        [self.adapter play:@"%@Sounds/BD0000.mp3"];
+
+        /* SoundManagerAdater */
+        //[self.adapter play:@"%@Sounds/BD0000.mp3"];
+
+        /* AVFManager */
+        [self.AVFManager play:@"BD0000"];
+
         CGPoint location = [touch locationInNode:self];
         
         SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship"];

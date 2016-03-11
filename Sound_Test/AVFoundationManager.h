@@ -7,8 +7,15 @@
 #import "MySoundManager.h"
 #import <AVFoundation/AVFoundation.h>
 
-@interface AVFoundationManager : MySoundManager
+@interface AVFoundationManager : NSObject <AVAudioPlayerDelegate>
 
+@property (nonatomic, retain) AVAudioPlayer *AVFPlayer;
 
+-(void)preload:(NSString *)path;
+-(void)play:(NSString *)name;
+-(void)stop:(NSString *)name;
+-(void)stopAll;
+-(void)setLoop:(bool)loop;
+-(void)setVolume:(double)volume;
 
 @end
