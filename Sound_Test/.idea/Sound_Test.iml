@@ -2,33 +2,95 @@
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/MySoundManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Sound TestUITests/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Sound TestUITests/Sound_TestUITests.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Sound TestTests/Sound_TestTests.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Sound TestTests/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/.gitignore" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/AVFoundationManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/SoundManager/SoundManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/SoundManager/SoundManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/AVFoundationManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Sound Test/Assets.xcassets" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Sound Test/AppDelegate.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Sound Test/SoundManagerAdapter.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Sound Test/GameViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Sound Test/AppDelegate.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Sound Test/SoundManagerAdapter.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Sound Test/GameScene.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Sound Test/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Sound Test/main.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Sound Test/GameScene.sks" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Sound Test/GameScene.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Sound Test/GameViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Sound Test/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Sound Test/Base.lproj/Main.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sounds/wood-logs-2.mp3" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sounds/whale.mp3" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sounds/BD0000.mp3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AVFoundationManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sound TestUITests/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sound TestUITests/Sound_TestUITests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AVFoundationManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.gitignore" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MySoundManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SoundManager/SoundManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SoundManager/SoundManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sound TestTests/Sound_TestTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sound TestTests/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sound Test/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sound Test/AppDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sound Test/main.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sound Test/GameScene.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sound Test/SoundManagerAdapter.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sound Test/GameScene.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sound Test/GameViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sound Test/Assets.xcassets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sound Test/GameScene.sks" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sound Test/SoundManagerAdapter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sound Test/GameViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sound Test/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sound Test/Base.lproj/Main.storyboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sound Test/AppDelegate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Actions/OALAction.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Actions/OALAudioActions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Actions/OALAction+Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Actions/OALUtilityActions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Actions/OALAction.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Actions/OALUtilityActions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Actions/OALAudioActions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Actions/OALActionManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Actions/OALActionManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/ObjectALConfig.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/OALSimpleAudio.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/AudioTrack/OALAudioTrack.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/AudioTrack/OALAudioTracks.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/AudioTrack/OALAudioTrackNotifications.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/AudioTrack/OALAudioTrack.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/AudioTrack/OALAudioTracks.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/AudioTrack/OALAudioTrackNotifications.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/ObjectAL.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Support/NSMutableDictionary+WeakReferences.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Support/OALAudioFile.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Support/ObjectALMacros.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Support/OALTools.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Support/NSMutableArray+WeakReferences.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Support/mach_timing.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Support/OALTools.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Support/NSMutableArray+WeakReferences.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Support/mach_timing.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Support/OALNotifications.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Support/SynthesizeSingleton.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Support/NSMutableDictionary+WeakReferences.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Support/ARCSafe_MemMgmt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Support/IOSVersion.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Support/IOSVersion.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Support/OALAudioFile.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/OpenAL/ALSource.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/OpenAL/ALListener.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/OpenAL/ALTypes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/OpenAL/ALWrapper.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/OpenAL/ALWrapper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/OpenAL/ALSource.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/OpenAL/ALListener.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/OpenAL/ALChannelSource.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/OpenAL/ALSoundSource.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/OpenAL/ALChannelSource.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/OpenAL/ALContext.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/OpenAL/ALBuffer.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/OpenAL/ALDevice.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/OpenAL/OpenALManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/OpenAL/ALContext.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/OpenAL/ALBuffer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/OpenAL/ALDevice.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/OpenAL/OpenALManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/OpenAL/ALSoundSourcePool.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/OpenAL/ALCaptureDevice.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/OpenAL/ALSoundSourcePool.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/OpenAL/ALCaptureDevice.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Session/OALSuspendHandler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Session/OALAudioSession.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Session/OALAudioSession.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/Session/OALSuspendHandler.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectAL/OALSimpleAudio.h" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
