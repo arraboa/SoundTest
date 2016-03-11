@@ -7,7 +7,8 @@
 #import "MySoundManager.h"
 #import <AVFoundation/AVFoundation.h>
 
-@interface AVFoundationManager : NSObject <AVAudioPlayerDelegate>
+
+@interface AVFoundationManager : NSObject <MySoundManager>
 
 @property (nonatomic, retain) AVAudioPlayer *AVFPlayer;
 

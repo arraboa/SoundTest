@@ -6,10 +6,14 @@
 #import <Foundation/Foundation.h>
 #import "MySoundManager.h"
 
-#ifndef SOUNDMANAGER_H_
-#define SOUNDMANAGER_H_
+@interface SoundManagerAdapter : NSObject <MySoundManager>
 
-@interface SoundManagerAdapter : MySoundManager
+-(void)preload:(NSString *)path ;
+-(void)play:(NSString *)name ;
+-(void)stop:(NSString *)name;
+-(void)stopAll;
+-(void)setLoop:(bool)loop;
+-(void)setVolume:(double)volume;
+
 @end
 
-#endif /* !MYSOUNDMANAGER_H_ */

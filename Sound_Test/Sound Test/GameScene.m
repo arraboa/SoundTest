@@ -31,43 +31,36 @@
     
     [self addChild:myLabel];
 
-    NSLog(@"Moved to view : OK");
-
     /* SoundManagerAdater */
-    //[self.adapter preload:@""];
+
+//    NSLog(@"SoundManager Preload");
+//    [SoundManager sharedManager].allowsBackgroundMusic = YES;
+//    [[SoundManager sharedManager] prepareToPlayWithSound:@"BD0000.mp3"];
+//    self.adapter = [[SoundManagerAdapter alloc] init];
+//    [self.adapter preload:@""];
 
     /* AVFManager */
+
     self.AVFManager = [[AVFoundationManager alloc] init];
     [self.AVFManager preload:@"BD0000"];
-
     NSLog(@"AVFManager preload achieved");
-
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     /* Called when a touch begins */
-    
+
     for (UITouch *touch in touches) {
 
         /* SoundManagerAdater */
-        //[self.adapter play:@"%@Sounds/BD0000.mp3"];
+
+//        NSLog(@"SoundManager Play BD0000.mp3");
+//        [[SoundManager sharedManager] playSound:@"BD0000.mp3"];
+//        [[SoundManager sharedManager] playSound:@"wood-logs-2.mp3"];
+//        [self.adapter play:@"wood-logs-2.mp3"];
 
         /* AVFManager */
-        [self.AVFManager play:@"BD0000"];
 
-        CGPoint location = [touch locationInNode:self];
-        
-        SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship"];
-        
-        sprite.xScale = 0.5;
-        sprite.yScale = 0.5;
-        sprite.position = location;
-        
-        SKAction *action = [SKAction rotateByAngle:M_PI duration:1];
-        
-        [sprite runAction:[SKAction repeatActionForever:action]];
-        
-        [self addChild:sprite];
+        [self.AVFManager play:@"BD0000"];
     }
 }
 

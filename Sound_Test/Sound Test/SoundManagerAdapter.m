@@ -10,27 +10,16 @@
 
     -(void)preload:(NSString *)path {
         [SoundManager sharedManager].allowsBackgroundMusic = YES;
-        [[SoundManager sharedManager] prepareToPlay];
+        [[SoundManager sharedManager] prepareToPlayWithSound:@"BD0000.mp3"];
     }
 
     -(void)play:(NSString *)name {
-        [[SoundManager sharedManager] playSound:name looping:NO];
+        [[SoundManager sharedManager] playSound:name];
     }
 
-    -(void)stop:(NSString *)name{
-
-    }
-
-    -(void)stopAll{
-
-    }
-
-    -(void)setLoop:(bool)loop{
-
-    }
-
-    -(void)setVolume:(double)volume{
-
-    }
+    -(void)stop:(NSString *)name{}
+    -(void)stopAll{}
+    -(void)setLoop:(bool)loop{}
+    -(void)setVolume:(double)volume{}
 
 @end
