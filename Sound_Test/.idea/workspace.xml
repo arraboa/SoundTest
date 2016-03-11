@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c81fec63-2993-40dd-a4e9-1000d60f8a8b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Sound_Test.iml" afterPath="$PROJECT_DIR$/.idea/Sound_Test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sound Test/GameScene.m" afterPath="$PROJECT_DIR$/Sound Test/GameScene.m" />
     </list>
     <ignored path="Sound_Test.iws" />
@@ -28,8 +26,8 @@
       <file leaf-file-name="GameScene.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sound Test/GameScene.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60035527">
-              <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.94671404">
+              <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
               <folding>
                 <element signature="e#142#163#0" expanded="true" />
               </folding>
@@ -812,8 +810,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sound Test/GameScene.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60035527">
-          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.94671404">
+          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
           <folding>
             <element signature="e#142#163#0" expanded="true" />
           </folding>
