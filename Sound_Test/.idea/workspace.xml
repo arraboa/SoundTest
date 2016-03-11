@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c81fec63-2993-40dd-a4e9-1000d60f8a8b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sound Test/OALAdapter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sound Test/OALAdapter.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Sound_Test.iml" afterPath="$PROJECT_DIR$/.idea/Sound_Test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sound Test.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Sound Test.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sound Test/GameScene.m" afterPath="$PROJECT_DIR$/Sound Test/GameScene.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sound Test/SoundManagerAdapter.h" afterPath="$PROJECT_DIR$/Sound Test/SoundManagerAdapter.h" />
-    </list>
+    <list default="true" id="c81fec63-2993-40dd-a4e9-1000d60f8a8b" name="Default" comment="" />
     <ignored path="Sound_Test.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +24,8 @@
       <file leaf-file-name="GameScene.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sound Test/GameScene.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.05304212">
-              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.46177846">
+              <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
               <folding>
                 <element signature="e#142#163#0" expanded="true" />
               </folding>
@@ -862,8 +854,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sound Test/GameScene.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.05304212">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.46177846">
+          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
           <folding>
             <element signature="e#142#163#0" expanded="true" />
           </folding>
