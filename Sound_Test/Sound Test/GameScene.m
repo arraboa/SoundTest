@@ -48,7 +48,10 @@ const bool USE_OAL = true;
 }
 
 -(void)stopSounds{
-    [self.OALadapter stopAll];
+    if (USE_OAL)
+        [self.OALadapter stopAll];
+    if (USE_SM)
+        [self.adapter stopAll];
 }
 
 
