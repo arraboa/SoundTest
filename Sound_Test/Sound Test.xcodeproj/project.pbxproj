@@ -12,6 +12,7 @@
 		B2EAF0DD9364FF597DBD22A0 /* OALSimpleAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EAFC3486BF8E6F5DFE6ADA /* OALSimpleAudio.m */; };
 		B2EAF0F29CF42D8F1240A493 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EAF22BF36173291708F0EE /* GameViewController.m */; };
 		B2EAF0FC4824C004E71B1888 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EAF8BDD62850FDA1B074C7 /* AVFoundation.framework */; };
+		B2EAF1142F6AFDEDA7645A93 /* OALAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EAF80D4292EF8A14E00164 /* OALAdapter.m */; };
 		B2EAF11CDFE7F387948AB0D7 /* Sound_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EAF601A2348593BC1E7CA9 /* Sound_TestTests.m */; };
 		B2EAF1C051F5E68467D2459C /* ALBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EAF852AA5B13695582C515 /* ALBuffer.m */; };
 		B2EAF1CB6BF8756768A7BCDF /* ALWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EAF3EB052C5256840717B2 /* ALWrapper.m */; };
@@ -113,6 +114,7 @@
 		B2EAF73C25A76A4B6311C830 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
 		B2EAF772AB6126B495639097 /* wood-logs-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "wood-logs-2.mp3"; sourceTree = "<group>"; };
 		B2EAF7DE09D836D29F428D8A /* Sound_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sound_TestUITests.m; sourceTree = "<group>"; };
+		B2EAF80D4292EF8A14E00164 /* OALAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OALAdapter.m; sourceTree = "<group>"; };
 		B2EAF817C7157539B8498747 /* ARCSafe_MemMgmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCSafe_MemMgmt.h; sourceTree = "<group>"; };
 		B2EAF81D28DA41C30AEC245B /* OALAudioSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OALAudioSession.m; sourceTree = "<group>"; };
 		B2EAF824DD0D77C3CD37540E /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
@@ -154,6 +156,7 @@
 		B2EAFDDFA922D9227603015F /* NSMutableArray+WeakReferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+WeakReferences.m"; sourceTree = "<group>"; };
 		B2EAFE34ACEDD44F10B012F9 /* ALCaptureDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALCaptureDevice.h; sourceTree = "<group>"; };
 		B2EAFE43F3A762443E7D2B1F /* OALAction+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OALAction+Private.h"; sourceTree = "<group>"; };
+		B2EAFE49FEAF7F58E1828B2A /* OALAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OALAdapter.h; sourceTree = "<group>"; };
 		B2EAFE5972F5799AF7FBD4C1 /* OALActionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OALActionManager.m; sourceTree = "<group>"; };
 		B2EAFEDCF83E8E9190FFC14C /* OALSimpleAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OALSimpleAudio.h; sourceTree = "<group>"; };
 		B2EAFEF4FBA9027B6C3D0644 /* OALAudioTrackNotifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OALAudioTrackNotifications.m; sourceTree = "<group>"; };
@@ -385,6 +388,8 @@
 				C51E9377F8700D8DA639CE9F /* AVFoundationManager.h */,
 				B2EAF267A459486B7AED6D61 /* SoundManagerAdapter.m */,
 				B2EAFFE244BAFE0FEC8B7061 /* SoundManagerAdapter.h */,
+				B2EAF80D4292EF8A14E00164 /* OALAdapter.m */,
+				B2EAFE49FEAF7F58E1828B2A /* OALAdapter.h */,
 			);
 			path = "Sound Test";
 			sourceTree = "<group>";
@@ -583,6 +588,7 @@
 				B2EAFCB40A998F9264937DB7 /* OALAudioTracks.m in Sources */,
 				B2EAF6E10BC3696101305E5D /* OALAudioTrackNotifications.m in Sources */,
 				B2EAF0DD9364FF597DBD22A0 /* OALSimpleAudio.m in Sources */,
+				B2EAF1142F6AFDEDA7645A93 /* OALAdapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

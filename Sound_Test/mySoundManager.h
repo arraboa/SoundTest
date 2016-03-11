@@ -11,6 +11,9 @@
 
 #include <Foundation/NSString.h>
 
+#define WHALE_SOUND @"whale.mp3"
+#define WOOD_SOUND @"wood-logs-2.mp3"
+
 @protocol MySoundManager
 
 -(void)preload:(NSString *)path;

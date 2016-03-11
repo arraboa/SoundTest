@@ -18,8 +18,8 @@
 
 @end
 
-const bool USE_SM = true;
-const bool USE_OAL = false;
+const bool USE_SM = false;
+const bool USE_OAL = true;
 
 @implementation GameScene
 
@@ -45,7 +45,7 @@ const bool USE_OAL = false;
 }
 
 -(void)stopSounds{
-    [self.adapter stop:@"whale.mp3"];
+    [self.adapter stop:WHALE_SOUND];
 }
 
 
@@ -55,8 +55,8 @@ const bool USE_OAL = false;
     for (UITouch *touch in touches) {
         if (USE_SM){
             NSLog(@"SoundManager Play sound.mp3");
-            _idMusic ? [self.adapter play:@"wood-logs-2.mp3"] :
-                    [self.adapter play:@"whale.mp3"];
+            _idMusic ? [self.adapter play:WOOD_SOUND] :
+                    [self.adapter play:WHALE_SOUND];
             _idMusic = !_idMusic;
         }
         if (USE_OAL){
