@@ -9,6 +9,11 @@
 #import "GameViewController.h"
 #import "GameScene.h"
 
+@interface GameViewController()
+@property(nonatomic, strong) GameScene *scene;
+@end
+
+
 @implementation GameViewController
 
 @synthesize AVFplayer;
@@ -25,16 +30,19 @@
     skView.ignoresSiblingOrder = YES;
     
     // Create and configure the scene.
-    GameScene *scene = [GameScene nodeWithFileNamed:@"GameScene"];
-    scene.scaleMode = SKSceneScaleModeAspectFill;
+    self.scene = [GameScene nodeWithFileNamed:@"GameScene"];
+    self.scene.scaleMode = SKSceneScaleModeAspectFill;
     
     // Present the scene.
-    [skView presentScene:scene];
+    [skView presentScene:self.scene];
 }
 
 - (BOOL)shouldAutorotate
 {
     return NO;
+}
+- (IBAction)stopButtonAction:(UIButton *)sender {
+    [self.scene stopSounds];
 }
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations

@@ -17,8 +17,16 @@
         [[SoundManager sharedManager] playSound:name];
     }
 
-    -(void)stop:(NSString *)name{}
-    -(void)stopAll{}
+    -(void)stop:(NSString *)name{
+        NSLog(@"Stop whale");
+        [[SoundManager sharedManager] stopSound:name];
+    }
+
+    -(void)stopAll{
+        NSLog(@"Stop bicyclette");
+        [[SoundManager sharedManager] stopAllSounds:false];
+    }
+
     -(void)setLoop:(bool)loop{}
     -(void)setVolume:(double)volume{}
 

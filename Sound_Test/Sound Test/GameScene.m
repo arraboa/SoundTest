@@ -14,6 +14,7 @@
 @interface GameScene()
 
 @property(nonatomic, strong) SoundManagerAdapter *adapter;
+@property bool idMusic;
 
 @end
 
@@ -37,6 +38,11 @@
     [self.adapter preload:@""];
 }
 
+-(void)stopSounds{
+    [self.adapter stop:@"whale.mp3"];
+}
+
+
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     /* Called when a touch begins */
 
@@ -44,8 +50,12 @@
         NSLog(@"SoundManager Play BD0000.mp3");
 //        [[SoundManager sharedManager] playSound:@"BD0000.mp3"];
 //        [[SoundManager sharedManager] playSound:@"wood-logs-2.mp3"];
-        [self.adapter play:@"wood-logs-2.mp3"];
-//        CGPoint location = [touch locationInNode:self];
+
+        _idMusic ? [self.adapter play:@"wood-logs-2.mp3"] :
+                [self.adapter play:@"whale.mp3"];
+
+        _idMusic = !_idMusic;
+        CGPoint location = [touch locationInNode:self];
 //
 //        SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship"];
 //

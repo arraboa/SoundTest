@@ -7,26 +7,27 @@
       <sourceFolder url="file://$MODULE_DIR$/Sound TestUITests/Sound_TestUITests.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sound TestTests/Sound_TestTests.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sound TestTests/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.gitignore" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/AVFoundationManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SoundManager/SoundManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SoundManager/SoundManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/.gitignore" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Sound Test/main.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AVFoundationManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sound Test/Assets.xcassets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sound Test/AppDelegate.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sound Test/SoundManagerAdapter.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sound Test/GameViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sound Test/AppDelegate.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sound Test/SoundManagerAdapter.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sound Test/GameScene.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sound Test/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Sound Test/Assets.xcassets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sound Test/main.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sound Test/GameScene.sks" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sound Test/GameScene.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sound Test/GameViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Sound Test/AppDelegate.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sound Test/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sound Test/Base.lproj/Main.storyboard" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/AVFoundationManager.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sounds/wood-logs-2.mp3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sounds/whale.mp3" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sounds/BD0000.mp3" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
