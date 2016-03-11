@@ -7,16 +7,15 @@
 #import "MySoundManager.h"
 #import "ObjectAL.h"
 
-@interface OALAdapter : NSObject <MySoundManager> {
-// Sound Effects
-ALDevice* device;
-ALContext* context;
-ALChannelSource* channel;
-ALBuffer* shootBuffer;
-ALBuffer* explosionBuffer;
+@interface OALAdapter : NSObject
 
-// Background Music
-OALAudioTrack* musicTrack;
-}
+-(void)preload:(NSString *)path;
+-(void)play:(NSString *)name;
+-(void)pause;
+-(void)resume;
+-(void)stop:(NSString *)name;
+-(void)stopAll;
+-(void)setLoop:(bool)loop;
+-(void)setVolume:(double)volume;
 
 @end

@@ -11,6 +11,7 @@
 #import "SoundManagerAdapter.h"
 #import "SoundManager.h"
 #import "OALAdapter.h"
+#import "OALAdapter.m"
 
 @interface GameScene()
 
@@ -43,7 +44,6 @@ const bool USE_OAL = true;
     }
     if (USE_OAL){
         self.OALadapter = [[OALAdapter alloc] init];
-        [self.OALadapter init];
     }
 }
 

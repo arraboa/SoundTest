@@ -5,15 +5,31 @@
 
 #import "OALAdapter.h"
 
+@interface OALAdapter()
+
+// Sound Effects
+@property (nonatomic, strong)ALDevice* device;
+@property (nonatomic, strong)ALContext* context;
+@property (nonatomic, strong)ALChannelSource* channel;
+@property (nonatomic, strong)ALBuffer* shootBuffer;
+@property (nonatomic, strong)ALBuffer* explosionBuffer;
+
+// Background Music
+@property (nonatomic, strong)OALAudioTrack* musicTrack;
+
+@end
+
 @implementation OALAdapter
 
 - (id) init
 {
+
+    NSLog(@"Init start");
     if(nil != (self = [super init]))
     {
-        device = [ALDevice deviceWithDeviceSpecifier:nil];
-        context = [ALContext contextOnDevice:device attributes:nil];
-        [OpenALManager sharedInstance].currentContext = context;
+        self.device = [ALDevice deviceWithDeviceSpecifier:nil];
+        self.context = [ALContext contextOnDevice:self.device attributes:nil];
+        [OpenALManager sharedInstance].currentContext = self.context;
 
         // Deal with interruptions for me!
         [OALAudioSession sharedInstance].handleInterruptions = YES;
@@ -27,17 +43,18 @@
 
         // Take all 32 sources for this channel.
         // (we probably won't use that many but what the heck!)
-        channel = [ALChannelSource channelWithSources:32];
+        self.channel = [ALChannelSource channelWithSources:32];
 
         // Preload the buffers so we don't have to load and play them later.
-        shootBuffer = [[OpenALManager sharedInstance]
+        self.shootBuffer = [[OpenALManager sharedInstance]
                 bufferFromFile:WHALE_SOUND];
-        explosionBuffer = [[OpenALManager sharedInstance]
+        self.explosionBuffer = [[OpenALManager sharedInstance]
                 bufferFromFile:WOOD_SOUND];
 
         // Background music track.
-        musicTrack = [OALAudioTrack track];
+        self.musicTrack = [OALAudioTrack track];
     }
+    NSLog(@"Init end");
     return self;
 }
 
@@ -45,15 +62,15 @@
 }
 
 -(void)play:(NSString *)name {
-    [channel play:name];
+    [self.channel play:name];
 }
 
 -(void)pause {
-    channel.paused = YES;
+    self.channel.paused = YES;
 }
 
 -(void)resume{
-    channel.paused = NO;
+    self.channel.paused = NO;
 }
 
 -(void)stop:(NSString *)name{
@@ -61,7 +78,7 @@
 }
 
 -(void)stopAll{
-    [channel stop];
+    [self.channel stop];
 }
 
 -(void)setLoop:(bool)loop{}
