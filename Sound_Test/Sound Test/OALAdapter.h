@@ -5,7 +5,18 @@
 
 #import <Foundation/Foundation.h>
 #import "MySoundManager.h"
+#import "ObjectAL.h"
 
-@interface OALAdapter : NSObject <MySoundManager>
+@interface OALAdapter : NSObject <MySoundManager> {
+// Sound Effects
+ALDevice* device;
+ALContext* context;
+ALChannelSource* channel;
+ALBuffer* shootBuffer;
+ALBuffer* explosionBuffer;
+
+// Background Music
+OALAudioTrack* musicTrack;
+}
 
 @end
