@@ -18,6 +18,9 @@
 
 @end
 
+const bool USE_SM = false;
+const bool USE_OAL = true;
+
 @implementation GameScene
 
 -(void)didMoveToView:(SKView *)view {
@@ -31,15 +34,18 @@
     
     [self addChild:myLabel];
 
-    NSLog(@"SoundManager Preload");
-//    [SoundManager sharedManager].allowsBackgroundMusic = YES;
-//    [[SoundManager sharedManager] prepareToPlayWithSound:@"BD0000.mp3"];
-    self.adapter = [[SoundManagerAdapter alloc] init];
-    [self.adapter preload:@""];
+    if (USE_SM) {
+        NSLog(@"SoundManager Preload");
+        self.adapter = [[SoundManagerAdapter alloc] init];
+        [self.adapter preload:@""];
+    }
+    if (USE_OAL){
+
+    }
 }
 
 -(void)stopSounds{
-    [self.adapter stop:@"whale.mp3"];
+    [self.adapter stop:WHALE_SOUND];
 }
 
 
@@ -47,27 +53,15 @@
     /* Called when a touch begins */
 
     for (UITouch *touch in touches) {
-        NSLog(@"SoundManager Play BD0000.mp3");
-//        [[SoundManager sharedManager] playSound:@"BD0000.mp3"];
-//        [[SoundManager sharedManager] playSound:@"wood-logs-2.mp3"];
+        if (USE_SM){
+            NSLog(@"SoundManager Play sound.mp3");
+            _idMusic ? [self.adapter play:WOOD_SOUND] :
+                    [self.adapter play:WHALE_SOUND];
+            _idMusic = !_idMusic;
+        }
+        if (USE_OAL){
 
-        _idMusic ? [self.adapter play:@"wood-logs-2.mp3"] :
-                [self.adapter play:@"whale.mp3"];
-
-        _idMusic = !_idMusic;
-        CGPoint location = [touch locationInNode:self];
-//
-//        SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship"];
-//
-//        sprite.xScale = 0.5;
-//        sprite.yScale = 0.5;
-//        sprite.position = location;
-//
-//        SKAction *action = [SKAction rotateByAngle:M_PI duration:1];
-//
-//        [sprite runAction:[SKAction repeatActionForever:action]];
-//
-//        [self addChild:sprite];
+        }
     }
 }
 
