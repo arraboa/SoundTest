@@ -54,7 +54,6 @@
 		B2EAFF676036C3BC62FC0AA0 /* wood-logs-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2EAF772AB6126B495639097 /* wood-logs-2.mp3 */; };
 		B2EAFF99B7288CA2055ECF8A /* OALTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EAFDD501F1BAE24ADA556C /* OALTools.m */; };
 		B2EAFFBAF0BB75B3CF2CEC05 /* ALSoundSourcePool.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EAF9A7941FFE719A3017EE /* ALSoundSourcePool.m */; };
-		C51E9B5B2ED7E867610D16B3 /* AVFoundationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C51E9DFEFEB3FB06B7FB0C37 /* AVFoundationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -169,8 +168,6 @@
 		B2EAFFB709DCD98ADDBD215C /* IOSVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSVersion.h; sourceTree = "<group>"; };
 		B2EAFFDD4A5F72BF39E94F87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B2EAFFE244BAFE0FEC8B7061 /* SoundManagerAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManagerAdapter.h; sourceTree = "<group>"; };
-		C51E9377F8700D8DA639CE9F /* AVFoundationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVFoundationManager.h; sourceTree = SOURCE_ROOT; };
-		C51E9DFEFEB3FB06B7FB0C37 /* AVFoundationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVFoundationManager.m; sourceTree = SOURCE_ROOT; };
 		FA48CE531C916E7B00E9C8AE /* MySoundManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MySoundManager.h; path = ../MySoundManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -384,8 +381,6 @@
 				B2EAF3B0C510FA888B583C71 /* GameScene.sks */,
 				B2EAFB6AE7C5C83226F4B9A1 /* GameViewController.h */,
 				B2EAF22BF36173291708F0EE /* GameViewController.m */,
-				C51E9DFEFEB3FB06B7FB0C37 /* AVFoundationManager.m */,
-				C51E9377F8700D8DA639CE9F /* AVFoundationManager.h */,
 				B2EAF267A459486B7AED6D61 /* SoundManagerAdapter.m */,
 				B2EAFFE244BAFE0FEC8B7061 /* SoundManagerAdapter.h */,
 				B2EAF80D4292EF8A14E00164 /* OALAdapter.m */,
@@ -559,7 +554,6 @@
 				B2EAF1F3F054EF94E778E303 /* AppDelegate.m in Sources */,
 				B2EAF7EDE4BD79B1A1AEF740 /* GameScene.m in Sources */,
 				B2EAF0F29CF42D8F1240A493 /* GameViewController.m in Sources */,
-				C51E9B5B2ED7E867610D16B3 /* AVFoundationManager.m in Sources */,
 				B2EAF391D934A21F7DA508A3 /* SoundManagerAdapter.m in Sources */,
 				B2EAFA87D0F604B0E1EDBF6A /* SoundManager.m in Sources */,
 				B2EAF1C051F5E68467D2459C /* ALBuffer.m in Sources */,

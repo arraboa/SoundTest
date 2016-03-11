@@ -10,9 +10,11 @@
 #import "GameScene.h"
 #import "SoundManagerAdapter.h"
 #import "SoundManager.h"
+#import "OALAdapter.h"
 
 @interface GameScene()
 
+@property(nonatomic, strong) OALAdapter *OALadapter;
 @property(nonatomic, strong) SoundManagerAdapter *adapter;
 @property bool idMusic;
 
@@ -40,12 +42,13 @@ const bool USE_OAL = true;
         [self.adapter preload:@""];
     }
     if (USE_OAL){
-
+        self.OALadapter = [[OALAdapter alloc] init];
+        [self.OALadapter init];
     }
 }
 
 -(void)stopSounds{
-    [self.adapter stop:WHALE_SOUND];
+    [self.OALadapter stopAll];
 }
 
 
@@ -57,11 +60,13 @@ const bool USE_OAL = true;
             NSLog(@"SoundManager Play sound.mp3");
             _idMusic ? [self.adapter play:WOOD_SOUND] :
                     [self.adapter play:WHALE_SOUND];
-            _idMusic = !_idMusic;
-        }
-        if (USE_OAL){
 
         }
+        if (USE_OAL){
+            _idMusic ? [self.OALadapter play:WOOD_SOUND] :
+                    [self.OALadapter play:WHALE_SOUND];
+        }
+        _idMusic = !_idMusic;
     }
 }
 

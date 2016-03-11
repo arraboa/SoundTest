@@ -18,6 +18,8 @@
 
 -(void)preload:(NSString *)path;
 -(void)play:(NSString *)name;
+-(void)pause;
+-(void)resume;
 -(void)stop:(NSString *)name;
 -(void)stopAll;
 -(void)setLoop:(bool)loop;
